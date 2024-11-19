@@ -1,0 +1,25 @@
+{
+    "name": "ilgne/mvc",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\": "core/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "ilgnerbecheleni",
+            "email": "ilgner.gui@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php":">=8.2"
+    }
+    
+    
+}
